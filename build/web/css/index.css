@@ -1,0 +1,104 @@
+#banner
+{
+    height: 80px;
+    box-sizing: border-box;
+    background-color: #113E87;
+    padding:25px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 36px;
+    color:white;
+    position: absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+}
+#butMenu
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 5%;
+    top:20px;
+    background-image: url("img/3rayitas.jpg");
+    background-size: contain;
+    cursor:pointer;
+}
+#butLupa
+{
+    height: 50px;
+    width: 50px;
+    background-color:#083C49;
+    position: absolute;
+    left: 5%;
+    top:20px;
+    background-image: url("img/lupa.jpg");
+    background-size: contain;
+    cursor:pointer;
+}
+#desplegadorDer
+{
+    background-color:#083C49;
+    position: absolute;
+    right: 0px;
+    top:80px;
+    z-index: 1;
+    height: 500px;
+    display: none;
+    //transition: 1s;
+}
+#barraBusqueda
+{
+    width:0px;
+    height: 50px;
+    //border:solid 2px red;
+    position: absolute;
+    left:10%;
+    top:20px;
+    box-sizing: border-box;
+    display:none;
+    //background-color:red;
+    //display: none;
+    transition: 1s;
+
+}
+#contenedorPrincipal
+{
+    width: 90%;
+    position: absolute;
+    top:80px;
+    left:5%;
+    right: 5%;
+}
+.itemsLista
+{
+    width: 100%;
+    height: 400px;
+    background-color:red;
+    text-align: center;
+    vertical-align: middle;
+    //border:solid 2px black;
+}
+.itemsListaPares
+{
+    background-color:#D0DFE2;
+}
+.itemsListaPares:hover{
+     box-shadow: inset -5px -5px 150px black;
+}
+.itemsListaImpares
+{
+    background-color:#083c49;
+}
+.itemsListaImpares:hover{
+    box-shadow: inset -5px -5px 150px white;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
